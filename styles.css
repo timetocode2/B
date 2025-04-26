@@ -100,8 +100,8 @@ body {
     box-shadow: 0 0 10px #000;
     }
     .photo-grid-socials img {
-      width: 50px;
-      height: 50px;
+      width: 51px;
+      height: 51px;
       object-fit: cover;
       border-radius: 50%;
       transition: transform 0.3s ease;
