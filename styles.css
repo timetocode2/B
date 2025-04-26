@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #0d1b2a, #000000);
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  }
+  
+  .name {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #b0c4ff;
+    text-shadow: 2px 2px 8px #000;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #ccc;
+  }
+  
+  .profile-pic {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #b0c4ff;
+    box-shadow: 0 0 20px rgba(176, 196, 255, 0.4);
+  }
+  
+  .about, .socials, .gallery{
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .myApps{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .about h2, .socials h2, .gallery h2, .myApps h2{
+    color: #b0c4ff;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #1a2a3a;
+    color: #b0c4ff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  .social-icons a:hover {
+    background: #2e4a6f;
+    transform: scale(1.05);
+  }
+  
+  .photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .photo-grid img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 0 10px rgba(176, 196, 255, 0.3);
+    }
+    
+    .photo-grid img:hover {
+        transform: scale(1.05);
+    }
+    .photo-grid-socials {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #000;
+    }
+    .photo-grid-socials img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+      box-shadow: 0 0 10px rgba(176, 196, 255, 0.3);
+    }
+  
+  .musify{
+
+    width: 75vw;
+    height: 65vh;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(176, 196, 255, 0.3);
+    border: #b0c4ff 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .musify iframe{
+    border-radius:15px ;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d1b2a;
+    font-size: 0.9rem;
+    color: #888;
+  }
