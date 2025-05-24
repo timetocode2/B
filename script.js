@@ -29,3 +29,8 @@ sections.forEach(section => {
   section.classList.add('hidden');
   observer.observe(section);
 });
+
+
+document.getElementById("Contact").addEventListener('click', ()=>{
+  window.location.href = "tel:+919580338477";
+});
